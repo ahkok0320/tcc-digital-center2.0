@@ -1,15 +1,8 @@
 # 昶青數位資料中心APP
 
-這是一個使用 Google Apps Script 開發的網頁應用程式，用於查詢和瀏覽 Google Drive 中特定資料夾的檔案。
-
-## 安裝步驟
-
-1. 在 Google Apps Script 中創建新專案
-2. 複製 `Code.gs` 和 `index.html` 到專案中
-3. 在 `Code.gs` 的 `initializeConfig` 函數中填入您的 Google Drive 資料夾 ID 和 Google Sheet ID
-4. 部署為網頁應用程式
-
-## 安全注意事項
-
-- 確保 Google Drive 資料夾和 Google Sheet 有適當的權限設置
-- 此應用程式應僅供內部使用
+## 如何在 Google Apps Script 中使用
+1. 在 Google Drive 新建一個 Apps Script 專案。
+2. 建立檔案 `Code.gs` 和 `index.html`，將此專案中的內容貼到對應位置。
+3. 將 `Code.gs` 中的 `YOUR_PARENT_FOLDER_ID`, `YOUR_GOOGLE_SHEET_ID` 改為真實的 ID。
+4. 部署為網頁應用程式，設定權限，發布。
+5. 訪問對應的 Apps Script 網址，即可使用。
