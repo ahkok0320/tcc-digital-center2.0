@@ -1,6 +1,0 @@
-# 忽略敏感資訊和臨時文件
-.DS_Store
-.env
-*.log
-node_modules/
-.clasp.json
